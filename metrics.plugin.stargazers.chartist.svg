@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="470" class="">
+    <defs>
+        <style/>
+    </defs>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.margin-bottom{margin-bottom:16px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.chart{padding:0 8px}.ct-chart{display:flex;margin-left:-12px}.ct-line,.ct-point{stroke-width:2px!important;stroke:#58a6ff!important}.ct-point{stroke:#106cbc!important}.ct-area{fill:#58a6ff!important}.ct-label{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important}.ct-label.ct-horizontal{text-anchor:middle!important}.ct-grid{stroke:rgba(127,127,127,.4)!important}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}.ct-label{font-size:.75rem;line-height:1}.ct-line{fill:none}.ct-chart-line .ct-label{display:block;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.ct-label.ct-horizontal.ct-end,.ct-label.ct-vertical.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-label.ct-vertical.ct-end{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end}.ct-grid{stroke-width:1px;stroke-dasharray:2px}.ct-point{stroke-linecap:round}.ct-line{}.ct-area{stroke:none;fill-opacity:.1}.ct-legend{margin-top:1em}.ct-series-a .ct-line,.ct-series-a .ct-point{background-color:#87ceeb;stroke:#87ceeb}.ct-series-a .ct-area{fill:#87ceeb}</style>
+    <style/>
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
+            <section class="stargazers">
+                <h2 class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                    </svg>
+                    Stargazers over the last two weeks
+                </h2>
+                <div class="row margin-bottom">
+                    <section class="column chart chartist">
+                        <h3>Total stargazers</h3>
+                        <div class="ct-chart">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="480" height="160" class="ct-chart-line">
+                                <!-- (optimized css) -->
+                                <g class="ct-grids">
+                                    <line y1="125" y2="125" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="97.5" y2="97.5" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="70" y2="70" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="42.5" y2="42.5" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="15" y2="15" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                </g>
+                                <g>
+                                    <g class="ct-series ct-series-a">
+                                        <path d="M30,125L30,102.175C41.154,101.258,52.308,100.788,63.462,99.425C74.615,98.062,85.769,94.564,96.923,91.45C108.077,88.336,119.231,83.289,130.385,80.175C141.538,77.061,152.692,73.931,163.846,72.2C175,70.469,186.154,69.633,197.308,68.35C208.462,67.067,219.615,65.433,230.769,64.5C241.923,63.567,253.077,63.18,264.231,62.3C275.385,61.42,286.538,59.811,297.692,59C308.846,58.189,320,57.83,331.154,57.075C342.308,56.32,353.462,55.242,364.615,54.325C375.769,53.408,386.923,53.103,398.077,51.575C409.231,50.047,420.385,38.951,431.538,37.825C442.692,36.699,453.846,36.542,465,35.9L465,125Z" class="ct-area"/>
+                                        <path d="M30,102.175C41.154,101.258,52.308,100.788,63.462,99.425C74.615,98.062,85.769,94.564,96.923,91.45C108.077,88.336,119.231,83.289,130.385,80.175C141.538,77.061,152.692,73.931,163.846,72.2C175,70.469,186.154,69.633,197.308,68.35C208.462,67.067,219.615,65.433,230.769,64.5C241.923,63.567,253.077,63.18,264.231,62.3C275.385,61.42,286.538,59.811,297.692,59C308.846,58.189,320,57.83,331.154,57.075C342.308,56.32,353.462,55.242,364.615,54.325C375.769,53.408,386.923,53.103,398.077,51.575C409.231,50.047,420.385,38.951,431.538,37.825C442.692,36.699,453.846,36.542,465,35.9" class="ct-line"/>
+                                        <line x1="30" y1="102.175" x2="30.01" y2="102.175" class="ct-point" ct:value="6283"/>
+                                        <line x1="63.46153846153846" y1="99.425" x2="63.47153846153846" y2="99.425" class="ct-point" ct:value="6293"/>
+                                        <line x1="96.92307692307692" y1="91.45" x2="96.93307692307692" y2="91.45" class="ct-point" ct:value="6322"/>
+                                        <line x1="130.3846153846154" y1="80.175" x2="130.39461538461538" y2="80.175" class="ct-point" ct:value="6363"/>
+                                        <line x1="163.84615384615384" y1="72.2" x2="163.85615384615383" y2="72.2" class="ct-point" ct:value="6392"/>
+                                        <line x1="197.3076923076923" y1="68.35" x2="197.31769230769228" y2="68.35" class="ct-point" ct:value="6406"/>
+                                        <line x1="230.76923076923077" y1="64.5" x2="230.77923076923076" y2="64.5" class="ct-point" ct:value="6420"/>
+                                        <line x1="264.2307692307692" y1="62.3" x2="264.2407692307692" y2="62.3" class="ct-point" ct:value="6428"/>
+                                        <line x1="297.6923076923077" y1="59" x2="297.70230769230767" y2="59" class="ct-point" ct:value="6440"/>
+                                        <line x1="331.15384615384613" y1="57.075" x2="331.1638461538461" y2="57.075" class="ct-point" ct:value="6447"/>
+                                        <line x1="364.6153846153846" y1="54.325" x2="364.6253846153846" y2="54.325" class="ct-point" ct:value="6457"/>
+                                        <line x1="398.07692307692304" y1="51.575" x2="398.08692307692303" y2="51.575" class="ct-point" ct:value="6467"/>
+                                        <line x1="431.53846153846155" y1="37.825" x2="431.54846153846154" y2="37.825" class="ct-point" ct:value="6517"/>
+                                        <line x1="465" y1="35.900000000000006" x2="465.01" y2="35.900000000000006" class="ct-point" ct:value="6524"/>
+                                    <text x="30" y="97.175" class="ct-post">6.28k</text><text x="63.46153846153846" y="94.425" class="ct-post">6.29k</text><text x="96.92307692307692" y="86.45" class="ct-post">6.32k</text><text x="130.3846153846154" y="75.175" class="ct-post">6.36k</text><text x="163.84615384615384" y="67.2" class="ct-post">6.39k</text><text x="197.3076923076923" y="63.349999999999994" class="ct-post">6.41k</text><text x="230.76923076923077" y="59.5" class="ct-post">6.42k</text><text x="264.2307692307692" y="57.3" class="ct-post">6.43k</text><text x="297.6923076923077" y="54" class="ct-post">6.44k</text><text x="331.15384615384613" y="52.075" class="ct-post">6.45k</text><text x="364.6153846153846" y="49.325" class="ct-post">6.46k</text><text x="398.07692307692304" y="46.575" class="ct-post">6.47k</text><text x="431.53846153846155" y="32.825" class="ct-post">6.52k</text><text x="465" y="30.900000000000006" class="ct-post">6.52k</text></g>
+                                </g>
+                                <g class="ct-labels">
+                                    <text x="30" y="145" width="33.46153846153846" height="20" class="ct-label ct-horizontal ct-end">21 Mar.</text>
+                                    <text x="63.46153846153846" y="145" width="33.46153846153846" height="20" class="ct-label ct-horizontal ct-end">22</text>
+                                    <text x="96.92307692307692" y="145" width="33.46153846153847" height="20" class="ct-label ct-horizontal ct-end">23</text>
+                                    <text x="130.3846153846154" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">24</text>
+                                    <text x="163.84615384615384" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">25</text>
+                                    <text x="197.3076923076923" y="145" width="33.46153846153848" height="20" class="ct-label ct-horizontal ct-end">26</text>
+                                    <text x="230.76923076923077" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">27</text>
+                                    <text x="264.2307692307692" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">28</text>
+                                    <text x="297.6923076923077" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">29</text>
+                                    <text x="331.15384615384613" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">30</text>
+                                    <text x="364.6153846153846" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">31</text>
+                                    <text x="398.07692307692304" y="145" width="33.46153846153851" height="20" class="ct-label ct-horizontal ct-end">01 Apr.</text>
+                                    <text x="431.53846153846155" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">02</text>
+                                    <text x="465" y="145" width="30" height="20" class="ct-label ct-horizontal ct-end">03</text>
+                                </g>
+                            </svg>
+                            <div class="ct-legend">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="column chart chartist">
+                        <h3>New stargazers per day</h3>
+                        <div class="ct-chart">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="480" height="160" class="ct-chart-line">
+                                <!-- (optimized css) -->
+                                <g class="ct-grids">
+                                    <line y1="125" y2="125" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="103" y2="103" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="81" y2="81" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="59" y2="59" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="37" y2="37" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                    <line y1="15" y2="15" x1="30" x2="465" class="ct-grid ct-vertical"/>
+                                </g>
+                                <g>
+                                    <g class="ct-series ct-series-a">
+                                        <path d="M30,125L30,100.8C41.154,101.533,52.308,103,63.462,103C74.615,103,85.769,71.987,96.923,61.2C108.077,50.413,119.231,34.8,130.385,34.8C141.538,34.8,152.692,51.422,163.846,61.2C175,70.978,186.154,94.2,197.308,94.2C208.462,94.2,219.615,94.2,230.769,94.2C241.923,94.2,253.077,107.4,264.231,107.4C275.385,107.4,286.538,98.6,297.692,98.6C308.846,98.6,320,109.6,331.154,109.6C342.308,109.6,353.462,103,364.615,103C375.769,103,386.923,103,398.077,103C409.231,103,420.385,15,431.538,15C442.692,15,453.846,78.067,465,109.6L465,125Z" class="ct-area"/>
+                                        <path d="M30,100.8C41.154,101.533,52.308,103,63.462,103C74.615,103,85.769,71.987,96.923,61.2C108.077,50.413,119.231,34.8,130.385,34.8C141.538,34.8,152.692,51.422,163.846,61.2C175,70.978,186.154,94.2,197.308,94.2C208.462,94.2,219.615,94.2,230.769,94.2C241.923,94.2,253.077,107.4,264.231,107.4C275.385,107.4,286.538,98.6,297.692,98.6C308.846,98.6,320,109.6,331.154,109.6C342.308,109.6,353.462,103,364.615,103C375.769,103,386.923,103,398.077,103C409.231,103,420.385,15,431.538,15C442.692,15,453.846,78.067,465,109.6" class="ct-line"/>
+                                        <line x1="30" y1="100.8" x2="30.01" y2="100.8" class="ct-point" ct:value="11"/>
+                                        <line x1="63.46153846153846" y1="103" x2="63.47153846153846" y2="103" class="ct-point" ct:value="10"/>
+                                        <line x1="96.92307692307692" y1="61.2" x2="96.93307692307692" y2="61.2" class="ct-point" ct:value="29"/>
+                                        <line x1="130.3846153846154" y1="34.8" x2="130.39461538461538" y2="34.8" class="ct-point" ct:value="41"/>
+                                        <line x1="163.84615384615384" y1="61.2" x2="163.85615384615383" y2="61.2" class="ct-point" ct:value="29"/>
+                                        <line x1="197.3076923076923" y1="94.2" x2="197.31769230769228" y2="94.2" class="ct-point" ct:value="14"/>
+                                        <line x1="230.76923076923077" y1="94.2" x2="230.77923076923076" y2="94.2" class="ct-point" ct:value="14"/>
+                                        <line x1="264.2307692307692" y1="107.4" x2="264.2407692307692" y2="107.4" class="ct-point" ct:value="8"/>
+                                        <line x1="297.6923076923077" y1="98.6" x2="297.70230769230767" y2="98.6" class="ct-point" ct:value="12"/>
+                                        <line x1="331.15384615384613" y1="109.6" x2="331.1638461538461" y2="109.6" class="ct-point" ct:value="7"/>
+                                        <line x1="364.6153846153846" y1="103" x2="364.6253846153846" y2="103" class="ct-point" ct:value="10"/>
+                                        <line x1="398.07692307692304" y1="103" x2="398.08692307692303" y2="103" class="ct-point" ct:value="10"/>
+                                        <line x1="431.53846153846155" y1="15" x2="431.54846153846154" y2="15" class="ct-point" ct:value="50"/>
+                                        <line x1="465" y1="109.6" x2="465.01" y2="109.6" class="ct-point" ct:value="7"/>
+                                    <text x="30" y="95.8" class="ct-post">+11</text><text x="63.46153846153846" y="98" class="ct-post">+10</text><text x="96.92307692307692" y="56.2" class="ct-post">+29</text><text x="130.3846153846154" y="29.799999999999997" class="ct-post">+41</text><text x="163.84615384615384" y="56.2" class="ct-post">+29</text><text x="197.3076923076923" y="89.2" class="ct-post">+14</text><text x="230.76923076923077" y="89.2" class="ct-post">+14</text><text x="264.2307692307692" y="102.4" class="ct-post">+8</text><text x="297.6923076923077" y="93.6" class="ct-post">+12</text><text x="331.15384615384613" y="104.6" class="ct-post">+7</text><text x="364.6153846153846" y="98" class="ct-post">+10</text><text x="398.07692307692304" y="98" class="ct-post">+10</text><text x="431.53846153846155" y="10" class="ct-post">+50</text><text x="465" y="104.6" class="ct-post">+7</text></g>
+                                </g>
+                                <g class="ct-labels">
+                                    <text x="30" y="145" width="33.46153846153846" height="20" class="ct-label ct-horizontal ct-end">21 Mar.</text>
+                                    <text x="63.46153846153846" y="145" width="33.46153846153846" height="20" class="ct-label ct-horizontal ct-end">22</text>
+                                    <text x="96.92307692307692" y="145" width="33.46153846153847" height="20" class="ct-label ct-horizontal ct-end">23</text>
+                                    <text x="130.3846153846154" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">24</text>
+                                    <text x="163.84615384615384" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">25</text>
+                                    <text x="197.3076923076923" y="145" width="33.46153846153848" height="20" class="ct-label ct-horizontal ct-end">26</text>
+                                    <text x="230.76923076923077" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">27</text>
+                                    <text x="264.2307692307692" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">28</text>
+                                    <text x="297.6923076923077" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">29</text>
+                                    <text x="331.15384615384613" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">30</text>
+                                    <text x="364.6153846153846" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">31</text>
+                                    <text x="398.07692307692304" y="145" width="33.46153846153851" height="20" class="ct-label ct-horizontal ct-end">01 Apr.</text>
+                                    <text x="431.53846153846155" y="145" width="33.46153846153845" height="20" class="ct-label ct-horizontal ct-end">02</text>
+                                    <text x="465" y="145" width="30" height="20" class="ct-label ct-horizontal ct-end">03</text>
+                                </g>
+                            </svg>
+                            <div class="ct-legend">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
+    </foreignObject>
+</svg>
